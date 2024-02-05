@@ -121,26 +121,33 @@ font-size:0.9rem ;
 font-weight: 700px;
 }
 .main-section{
-    background-image: url("images/hero_image.jpg");
+    /* background-image: url("images/hero_image1.jpg"); */
     background-size: cover;
-    height: 350px;
-    display: flex;
+    height: 500px;
+    width: 95%;
+    /* display: flex; */
     justify-content: center;
     align-items: flex-end;
-
+margin-left: 2.5%;
 
 }
+.logo-background{
+    width:100%;
+    height: 400px;
+    /* margin-top: 15px; */
+
+    /* background-size: cover;
+    /* height: 350px; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: flex-end;  */
+}
+/* /* / */
 .main-msg{
-    background-color: white;
-    color: black;
-    height: 40px;
-    display:flex ;
+    display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 0.85rem;
-    width: 80%;
-    margin-bottom:25px ;
-
+    margin: 25px 0;
 }
 .main-msg a{
     color: #007185
